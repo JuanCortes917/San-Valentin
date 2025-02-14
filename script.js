@@ -10,3 +10,4 @@ function moverAleatoriamente(btn) {
 btnNo.addEventListener("mouseenter", function (e) {
     moverAleatoriamente(e.target)
 })
+

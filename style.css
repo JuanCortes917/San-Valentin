@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffe5e5;
+    background-color: #ffc6ff;
 }
 
 .container {
@@ -23,6 +23,8 @@ body {
     gap: 20px;
     max-width: 500px;
     margin: 20px;
+
+    
 }
 
 .container .tenor-gif-embed {
@@ -38,9 +40,20 @@ body {
 .btn a {
     text-decoration: none;
     color: #111;
-    background: #fff;
+    background: #ffffff;
     padding: 10px 25px;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0.5rem 1rem 3rem hsl(0, 0, 0,0.3);
+    transition: all 0.3s ease;
 
 }
+
+.btn :hover{
+
+    background-color: #e100ff;
+    transform: scale(1.1);
+    
+}
+
+
+
